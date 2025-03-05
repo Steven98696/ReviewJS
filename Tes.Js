@@ -7,4 +7,4 @@ const coba ={
  lastTest:"Hummu"
 } 
 document.getElementById("Tes2").innerHTML =
-coba.firstTest + " is " + coba.lastTest + "Keanehan";
+coba.firstTest + " is " + coba.lastTest + " Keanehan ";
