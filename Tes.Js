@@ -1,10 +1,10 @@
 function myFunction() {
-  document.getElementById("ntahla").innerHTML = "Baru";
+  document.getElementById("Ntahla").innerHTML = "Baru";
 }
 
 const coba ={
  firstTest:"TesTes",
  lastTest:"Hummu"
 } 
-document.getElementById("ntahla").innerHTML =
+document.getElementById("Tes2").innerHTML =
 coba.firstTest + " is " + coba.lastTest + "Keanehan";
