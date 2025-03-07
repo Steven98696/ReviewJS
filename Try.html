@@ -23,6 +23,13 @@
     <script>
       const number=[1,2,3,4,5,6]
       document.getElementById("Numb").innerHTML=number
+      function tambahField(){
+        let input= document.createElement("input")
+        input.type="text"
+        input.className="field-box"
+        input.placeholder="Masukkan Text"
+        document.getElementById("container").appendChild(input)
+      }
     </script>
   </body>
   </html>
