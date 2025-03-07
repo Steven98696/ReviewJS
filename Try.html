@@ -24,6 +24,7 @@
     <p id ="Numb"></p>
     <button onclick="addField()">Add Field</button>
     <div id="container"></div>
+    <p id="Length"></p>
     <script>
       let x
       document.getElementById("Tes").innerHTML=x??=5
@@ -38,6 +39,8 @@
         input.placeholder="Masukkan Text"
         document.getElementById("container").appendChild(input)
       }
+        let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        document.getElementById("Length").innerHTML = text.length;
     </script>
   </body>
   </html>
