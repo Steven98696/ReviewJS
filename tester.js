@@ -22,8 +22,10 @@
        }
        const d = new Date();
         document.getElementById("date").innerHTML = d;
-    
-    
+        function refreshDate() {
+          const newDate = new Date();
+          document.getElementById("date").innerHTML = newDate;   
+        }
       const numbers = [45, 4, 9, 16, 25];
         numbers.sort((a, b) => a - b);
         let txt = "";
