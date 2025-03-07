@@ -38,6 +38,7 @@
     <p id ="date"></p>
     <p id ="Tes"></p>
     <p id ="Numb"></p>
+    <p id ="Loop"></p>
     <button onclick="addField()">Add Field</button>
     <div id="container"></div>
     <p id="Length"></p>
@@ -67,6 +68,17 @@
        }
        const d = new Date();
         document.getElementById("date").innerHTML = d;
+    </script>
+    <script>
+      const numbers = [45, 4, 9, 16, 25];
+        numbers.sort((a, b) => a - b);
+        let txt = "";
+        numbers.forEach(myFunction);
+        document.getElementById("Loop").innerHTML = txt;
+
+        function myFunction(value) {
+          txt += value + "<br>"; 
+        }
     </script>
   </body>
   </html>
