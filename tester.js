@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset ="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href ="tester.css">
-  </head>
-  <body>
-    <p id ="date"></p>
-    <p id ="Tes"></p>
-    <p id="Length"></p>
-    <p id ="Numb"></p>
-    <p id ="Loop"></p>
-    <button onclick="addField()">Add Field</button>
-    <div id="container"></div>
-     <button onclick="addBox()">Add Box</button>
-     <div id="container1"></div>     
-    <script>
+ 
       let x
       document.getElementById("Tes").innerHTML=x??=5
-    </script>
-    <script>
+    
+    
       let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       document.getElementById("Length").innerHTML = text.length
       const number=[1,2,3,4,5,6]
@@ -39,8 +22,8 @@
        }
        const d = new Date();
         document.getElementById("date").innerHTML = d;
-    </script>
-    <script>
+    
+    
       const numbers = [45, 4, 9, 16, 25];
         numbers.sort((a, b) => a - b);
         let txt = "";
@@ -49,6 +32,4 @@
         function myFunction(value) {
           txt += value + "<br>"; 
         }
-    </script>
-  </body>
-  </html>
+    
