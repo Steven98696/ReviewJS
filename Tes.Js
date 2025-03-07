@@ -4,7 +4,7 @@ function myFunction() {
 
 const coba ={
  firstTest:"TesTes",
- lastTest:"Aji"
+ lastTest:"Boring"
 } 
 document.getElementById("Tes2").innerHTML =
 coba.firstTest + " is " + coba.lastTest + " Keanehan "
