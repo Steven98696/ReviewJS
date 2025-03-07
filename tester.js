@@ -32,4 +32,13 @@
         function myFunction(value) {
           txt += value + "<br>"; 
         }
-    
+      const letters = new Set(["a","b","c"]);
+
+        // List all Elements
+        let da = "";
+        letters.forEach (function(value) {
+          da+= value + "<br>";
+        })
+
+        document.getElementById("trial").innerHTML = da;
+      
