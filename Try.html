@@ -49,6 +49,8 @@
       document.getElementById("Tes").innerHTML=x??=5
     </script>
     <script>
+      let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      document.getElementById("Length").innerHTML = text.length
       const number=[1,2,3,4,5,6]
       document.getElementById("Numb").innerHTML=number
       function addField(){
@@ -58,8 +60,6 @@
         input.placeholder="Masukkan Text"
         document.getElementById("container").appendChild(input)
       }
-        let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        document.getElementById("Length").innerHTML = text.length;
         function addBox() {
         let box = document.createElement("div")
         box.className = "box"; 
