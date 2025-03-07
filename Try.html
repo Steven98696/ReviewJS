@@ -16,6 +16,8 @@
   <body>
     <p id ="Tes"></p>
     <p id ="Numb"></p>
+    <button onclick="addField()">Add Field</button>
+    <div id="container"></div>
     <script>
       let x
       document.getElementById("Tes").innerHTML=x??=5
@@ -23,7 +25,7 @@
     <script>
       const number=[1,2,3,4,5,6]
       document.getElementById("Numb").innerHTML=number
-      function tambahField(){
+      function addField(){
         let input= document.createElement("input")
         input.type="text"
         input.className="field-box"
