@@ -11,7 +11,7 @@
         text-align: center;
         align-items: center;
       }
-      #container{
+      #container,#container1{
         margin:20px 0 0 0;
         display:flex;
         flex-direction: column;
@@ -35,7 +35,7 @@
     <button onclick="addField()">Add Field</button>
     <div id="container"></div>
     <p id="Length"></p>
-    <div id="container"></div>
+    <div id="container1"></div>
     <button onclick="addBox()">Tambah Kotak</button>
     <script>
       let x
@@ -57,7 +57,7 @@
         let box = document.createElement("div")
         box.className = "box"; 
         box.innerHTML = "Kotak Baru"; 
-        document.getElementById("container").appendChild(box);
+        document.getElementById("container1").appendChild(box);
        }
     </script>
   </body>
