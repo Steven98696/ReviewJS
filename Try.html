@@ -15,40 +15,6 @@
     <div id="container"></div>
      <button onclick="addBox()">Add Box</button>
      <div id="container1"></div>     
-    <script>
-      let x
-      document.getElementById("Tes").innerHTML=x??=5
-    </script>
-    <script>
-      let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      document.getElementById("Length").innerHTML = text.length
-      const number=[1,2,3,4,5,6]
-      document.getElementById("Numb").innerHTML=number
-      function addField(){
-        let input= document.createElement("input")
-        input.type="text"
-        input.className="field-box"
-        input.placeholder="Masukkan Text"
-        document.getElementById("container").appendChild(input)
-      }
-        function addBox() {
-        let box = document.createElement("div")
-        box.className = "box"; 
-        box.innerHTML = "New Box"; 
-        document.getElementById("container1").appendChild(box);
-       }
-       const d = new Date();
-        document.getElementById("date").innerHTML = d;
-    </script>
-    <script>
-      const numbers = [45, 4, 9, 16, 25];
-        numbers.sort((a, b) => a - b);
-        let txt = "";
-        numbers.forEach(myFunction);
-        document.getElementById("Loop").innerHTML = txt;
-        function myFunction(value) {
-          txt += value + "<br>"; 
-        }
-    </script>
+     <script src = "tester.js"></script>
   </body>
   </html>
