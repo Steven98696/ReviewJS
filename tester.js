@@ -33,8 +33,6 @@
           txt += value + "<br>"; 
         }
       const letters = new Set(["a","b","c"]);
-
-        // List all Elements
         let da = "";
         letters.forEach (function(value) {
           da+= value + "<br>";
