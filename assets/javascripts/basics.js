@@ -3,15 +3,13 @@ document.getElementById("strings").textContent = strings;
 const numbers = 3;
 document.getElementById("numbers").textContent = numbers;
 document.addEventListener("DOMContentLoaded", function () {
-  const booleanRadios = document.getElementsByName("boolean");
+  const booleanCheckbox = document.getElementById("booleanCheckbox");
   const booleanSpan = document.getElementById("booleans");
-  let booleanValue = false;  
-  booleanSpan.textContent = booleanValue; 
-  booleanRadios.forEach(radio => {
-      radio.addEventListener("change", function () {
-          booleanValue = this.value === "true";
-          booleanSpan.textContent = booleanValue;
-      });
+  let booleanValue = false; 
+  booleanSpan.textContent = booleanValue;
+  booleanCheckbox.addEventListener("change", function () {
+      booleanValue = this.checked;
+      booleanSpan.textContent = booleanValue;
   });
 });
   const obj = {
