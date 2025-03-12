@@ -5,3 +5,4 @@ JS :
 4. Custom(Anonymous Function) 60
 5. General Operands ok
 6. Datatype 75
+
